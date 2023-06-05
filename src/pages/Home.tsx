@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { getPostList } from '../api';
 import PostListItem from '../components/PostListItem';
-import { IResponsePostList, TAG } from '../api/types';
+import { IResponsePostList } from '../api/types';
 import NoPostList from '../components/NoPostList';
 
 const Home = () => {
